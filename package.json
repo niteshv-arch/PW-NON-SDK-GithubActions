@@ -1,0 +1,13 @@
+{
+  "name": "playwright-browserstack",
+  "version": "1.0.0",
+  "description": "Playwright tests on BrowserStack Automate (non-SDK)",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:single": "npx playwright test tests/bstack_demo.spec.js"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.0",
+    "dotenv": "^16.4.5"
+  }
+}
